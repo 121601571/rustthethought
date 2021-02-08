@@ -1,0 +1,2 @@
+# rustthethought
+my rust test
