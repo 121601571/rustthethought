@@ -7,3 +7,7 @@ mod aaa {
 pub fn print_aaa() {
     println!("{}", 25);
 }
+
+pub fn simpeladd(a:i32, b:i32)->i32{
+    a+b
+}

@@ -1,7 +1,16 @@
+mod aaa;
+use aaa::print_aaa;
 fn main() {
     println!("Hello, world!");
     unbor();
     bor();
+    let c = aaa::simpeladd(1,2);
+    print!("{}", c);
+    // add closure here..
+    let f1 = aaa::simpeladd;
+    let res = f1(3,4);
+    print!("{}...", res);
+
 }
 fn unbor(){
 
